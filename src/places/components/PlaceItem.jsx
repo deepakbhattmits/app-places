@@ -22,6 +22,7 @@ const PlaceItem = ({
 	coordinates,
 	onDelete,
 }) => {
+	console.log('image : ', image);
 	const auth = useContext(AuthContext);
 	const [showMap, setShowmap] = useState(false);
 
